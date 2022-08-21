@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+nav {
+  padding: 40px 72px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 22px;
+  color: #C4C4CC;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 125%;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  color: #E1E1E6;
+
+  font-size: 48px;
+  line-height: 125%;
+}
+
+p {
+  color: #E1E1E6;
+  font-size: 18px;
+  line-height: 160%;
+
+  text-align: justify;
+}
+
+button {
+  width: 195px;
+  height: 48px;
+  border: none;
+  background: none;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+
+  transition: background 800ms;
+  transition: color 800ms;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #043033;
+}
+
+a:focus {
+  font-weight: bold;
+  font: #fff;
+}
+
+#app img:nth-child(1) {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 24px;
+
+  margin: 172px 0 366px 0;
+}
+
+.universe, .exploration {
+  width: 648px;
+  height: 203px;
+  margin-top: 63px;
+  margin-left: 102px;
+}
